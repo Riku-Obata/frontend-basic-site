@@ -116,6 +116,9 @@ img {
 
 .hero-sub-copy {
   margin: 0;
+  font-weight: 400;
+  size: 16px;
+  line-height: 21.79px;
 }
 
 @media (max-width: 750px) {
