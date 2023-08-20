@@ -576,9 +576,28 @@ img {
 }
 
 .signup-big-button {
+  height: 60px;
+  padding: 10px 40px;
+  gap: 10px;
+  background-color: var(--color-accent-red);
+  box-shadow: 4px 4px 0 var(--color-black);
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.signup-big-button:hover {
+  box-shadow: 12px 12px 2px var(--color-black);
+  background-color: rgba(240, 67, 165, 1);
 }
 
 .signup-big-button-label {
+  flex-grow: 1;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.96px;
+  color: rgba(255, 254, 252, 1);
+  text-align: center;
 }
 
 .signup-big-button-icon {
@@ -589,7 +608,17 @@ img {
 
 /* footer */
 .footer {
+  height: 139px;
+  padding: 60px 40px;
+  gap: 40px;
+  background-color: var(--color-background-black);
+  display: flex;
+  justify-content: center;
 }
 
 .footer-copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: var(--color-white);
 }
