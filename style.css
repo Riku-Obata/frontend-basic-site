@@ -578,6 +578,7 @@ img {
   transition-duration: 0.3s;
   display: flex;
   align-items: center;
+  border: none;
 }
 
 .signup-big-button:hover {
