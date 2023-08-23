@@ -374,12 +374,6 @@ img {
   text-align: center;
 }
 
-.courses-button-icon {
-}
-
-.courses-button-icon-label {
-}
-
 @media (max-width: 800px) {
   .courses {
     padding: 40px 20px;
@@ -598,12 +592,6 @@ img {
   line-height: 28.96px;
   color: rgba(255, 254, 252, 1);
   text-align: center;
-}
-
-.signup-big-button-icon {
-}
-
-.signup-big-button-icon-img {
 }
 
 @media (max-width: 800px) {
