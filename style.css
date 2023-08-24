@@ -142,7 +142,7 @@ img {
   width: 100%;
   padding: 80px 0px;
   gap: 20px;
-  background-color: rgba(23, 21, 37, 1);
+  background-color: var(--color-background-black);
 }
 
 .about-container {
@@ -151,7 +151,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgba(255, 254, 252, 1);
+  color: var(--color-white);
 }
 
 .about-section-head {
@@ -234,7 +234,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(3, 4, 39, 1);
+  background-color: var(--color-background-black);
 }
 
 .courses-container {
@@ -246,7 +246,7 @@ img {
 }
 
 .courses-section-head-PC {
-  color: rgba(255, 254, 252, 1);
+  color: var(--color-white);
   font-weight: 400;
   font-size: 32px;
   margin: 0;
@@ -277,7 +277,7 @@ img {
 }
 
 .courses-block:hover .courses-block-body {
-  background-color: rgba(244, 232, 119, 1);
+  background-color: var(--color-course-hover-yellow);
 }
 
 .courses-sub-head {
@@ -306,13 +306,13 @@ img {
   font-weight: 400;
   font-size: 32px;
   font-family: var(--font-family-heading);
-  color: rgba(255, 254, 252, 1);
+  color: var(--color-white);
   letter-spacing: 0.05em;
   position: relative;
 }
 
 .courses-block-body {
-  background-color: rgba(242, 229, 46, 1);
+  background-color: var(--color-accent-yellow);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -352,7 +352,7 @@ img {
   height: 60px;
   padding: 10px 40px;
   gap: 10px;
-  background-color: rgba(242, 5, 116, 1);
+  background-color: var(--color-accent-red);
   box-shadow: 4px 4px 0 var(--color-accent-yellow);
   transition-duration: 0.3s;
   display: flex;
@@ -362,7 +362,7 @@ img {
 
 .courses-big-button:hover {
   box-shadow: 12px 12px 2px var(--color-accent-yellow);
-  background-color: rgba(240, 67, 165, 1);
+  background-color: var(--color-button-hover-red);
 }
 
 .courses-button-label {
@@ -370,7 +370,7 @@ img {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
-  color: rgba(255, 254, 252, 1);
+  color: var(--color-white);
   text-align: center;
 }
 
@@ -392,7 +392,7 @@ img {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
-    color: rgba(255, 254, 252, 1);
+    color: var(--color-white);
     font-family: var(--font-family-heading);
     margin: 0;
   }
@@ -582,7 +582,7 @@ img {
 
 .signup-big-button:hover {
   box-shadow: 12px 12px 2px var(--color-black);
-  background-color: rgba(240, 67, 165, 1);
+  background-color: var(--color-button-hover-red);
 }
 
 .signup-big-button-label {
@@ -590,7 +590,7 @@ img {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
-  color: rgba(255, 254, 252, 1);
+  color: var(--color-white);
   text-align: center;
 }
 
