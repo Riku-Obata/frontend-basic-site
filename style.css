@@ -684,12 +684,10 @@ img {
 
 @media (max-width: 800px) {
   .footer {
-    height: 95px;
     padding: 40px 0;
   }
 
   .footer-copyright {
-    height: 15px;
     font-size: 12px;
     line-height: 1.16;
   }
