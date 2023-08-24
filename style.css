@@ -60,7 +60,6 @@ img {
     height: 60px;
   }
   .header-logo {
-    height: 30.5px;
     width: 166px;
   }
 }
@@ -142,11 +141,10 @@ img {
   width: 100%;
   padding: 80px 0px;
   gap: 20px;
-  background-color: var(--color-background-black);
+  background-color: var(--color-background-navy);
 }
 
 .about-container {
-  height: 268px;
   gap: 40px;
   display: flex;
   flex-direction: column;
@@ -190,7 +188,6 @@ img {
 
 .about-image-wrapper {
   width: 320px;
-  height: 180px;
 }
 
 .about-image {
@@ -200,7 +197,6 @@ img {
 }
 @media (max-width: 800px) {
   .about {
-    height: 327px;
     padding: 40px 20px;
     gap: 40px;
   }
@@ -349,7 +345,6 @@ img {
 
 .courses-big-button {
   width: 800px;
-  height: 60px;
   padding: 10px 40px;
   gap: 10px;
   background-color: var(--color-accent-red);
@@ -503,7 +498,6 @@ img {
 }
 
 .signup-section-body {
-  height: 66px;
   font-weight: 400;
   line-height: 21.79px;
   margin: 0;
@@ -525,7 +519,6 @@ img {
 }
 
 .signup-label {
-  height: 27px;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.35;
@@ -551,7 +544,6 @@ img {
 
 .signup-textarea {
   width: inherit;
-  height: 150px;
   border-radius: 8px;
   padding: 10px;
   font-weight: 400;
@@ -655,7 +647,6 @@ img {
   }
 
   .signup-big-button-label {
-    height: 20px;
     font-size: 14px;
     line-height: 1.42;
   }
