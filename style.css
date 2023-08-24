@@ -550,7 +550,7 @@ img {
 }
 
 .signup-textarea {
-  width: 100%;
+  width: inherit;
   height: 150px;
   border-radius: 8px;
   padding: 10px;
@@ -560,6 +560,7 @@ img {
   background: var(--color-form-background-yellow);
   border: 1px solid var(--color-form-border-red);
   color: var(--color-black);
+  resize: vertical;
 }
 
 .signup-textarea:focus {
@@ -597,7 +598,6 @@ img {
   .signup {
     padding: 40px 20px;
     gap: 40px;
-    height: 670px;
   }
 
   .signup-container {
@@ -623,7 +623,6 @@ img {
 
   .signup-input-container {
     display: block;
-    height: 300px;
   }
 
   .signup-label {
