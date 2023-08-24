@@ -9,7 +9,7 @@
   --color-background-black: #171525;
   --color-background-navy: #030427;
   --color-form-background-yellow: #fffab9;
-  --color-form-background-gray: #ad9783;
+  --color-form-placeholder-gray: #ad9783;
   --color-form-border-red: #df6da2;
   --color-button-hover-red: #f043a5;
   --color-course-hover-yellow: #f4e877;
@@ -566,6 +566,11 @@ img {
 .signup-textarea:focus {
   outline: none;
   border: 2px solid var(--color-black);
+}
+
+.signup-input::placeholder,
+.signup-textarea::placeholder {
+  color: var(--color-form-placeholder-gray);
 }
 
 .signup-big-button {
