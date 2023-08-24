@@ -668,7 +668,6 @@ img {
 
 /* footer */
 .footer {
-  height: 139px;
   padding: 60px 40px;
   gap: 40px;
   background-color: var(--color-background-black);
